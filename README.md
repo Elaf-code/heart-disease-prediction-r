@@ -33,7 +33,7 @@ Three supervised machine learning classifiers were evaluated on the held-out 30%
 | **K-Nearest Neighbors (KNN - 5-fold CV)** | 67.78% | 0.7292 | 0.6190 | 0.6741 | 0.3498 |
 | **Decision Tree (rpart)** | 67.78% | 0.9167 | 0.4048 | 0.6607 | 0.3318 |
 
-> **Key Finding:** Logistic Regression outperformed competing classifiers by **17.8 percentage points**, achieving high sensitivity ($91.7\%$) and a low false-negative rate (8.3%\%$), exceeding the 80% clinical screening utility benchmark ($p = 9.58 \times 10^{-11}$).
+> **Key Finding:** Logistic Regression outperformed competing classifiers by **17.8 percentage points**, achieving high sensitivity ($91.7\%$) and a low false-negative rate (8.3%), exceeding the 80% clinical screening utility benchmark ($p = 9.58 \times 10^{-11}$).
 
 ---
 
