@@ -3,6 +3,7 @@
 Supervised machine learning framework and clinical exploratory data analysis evaluating cardiovascular risk factors using the benchmark UCI Heart Disease dataset.
 
 Interactive Live Application: Shiny Web App
+https://runupw-0-0.shinyapps.io/heart-disease-prediction/
 
 
 Executive Summary & Problem
@@ -46,12 +47,14 @@ Model: A logistic regression (glm, binomial) is fitted at app start-up on the 70
 Output: Predicted probability and a risk score bar. A probability above 0.5 is labeled High Risk, otherwise Low Risk.
 Model comparison table: The Decision Tree and KNN results shown in the app are the reported test-set metrics from the training script (scripts/). Only the logistic regression is fitted live inside the app.
 Disclaimer: The tool is for educational purposes only and does not constitute clinical advice.
+
 Tech Stack & Libraries
 Language: R
 Frameworks & packages:
 Shiny app: shiny, tidyverse
 Analysis and modeling scripts: tidyverse (dplyr, ggplot2), caret, rpart, corrplot
 Deployment: R Shiny (shinyapps.io)
+
 Project Structure
 ├── app/          # R Shiny application (single-file app.R; reads heart_disease_uci.csv)
 ├── data/         # UCI Heart Disease benchmark dataset (heart_disease_uci.csv)
