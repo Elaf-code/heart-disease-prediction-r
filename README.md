@@ -4,7 +4,6 @@ Supervised machine learning framework and clinical exploratory data analysis eva
 
 Interactive Live Application: Shiny Web App
 
-Course project: CS 473 - Data Visualization, Majmaah University.
 
 Executive Summary & Problem
 
@@ -18,7 +17,7 @@ Removal of the identifier column (id).
 Complete-case handling with na.omit().
 Factor encoding of all categorical predictors.
 Stratified 70/30 train/test split in the analysis script (caret::createDataPartition) using a fixed seed (seed = 42) for full reproducibility. The held-out test set contains 90 records.
-Note: the Shiny app fits its own logistic regression with a simple random 70/30 split (sample(), same seed), so its coefficients can differ slightly from the model evaluated in the analysis script.
+
 Key Clinical Insights (Exploratory Data Analysis)
 Age disparity: Patients diagnosed with heart disease showed a higher median age (~57 years) compared to healthy profiles (~52 years).
 Correlation patterns: Notable physiological associations were identified, including an inverse correlation between maximum heart rate (thalach) and patient age, as well as risk alignment between ST depression (oldpeak) and the number of major vessels (ca).
